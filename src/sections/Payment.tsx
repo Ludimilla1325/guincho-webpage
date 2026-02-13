@@ -9,7 +9,7 @@ export function Payment() {
         <SectionHeader
           id="payment-heading"
           title="Formas de pagamento"
-          subtitle="Pagamento na hora, após o serviço. Sem taxas escondidas."
+          subtitle="Dinheiro ou Pix. Valores claros, sem taxas escondidas."
           centered
         />
         <div className="flex flex-wrap justify-center items-center gap-6 px-6 py-5 bg-brand-grey-bg rounded-2xl border border-slate-100 max-w-md mx-auto">

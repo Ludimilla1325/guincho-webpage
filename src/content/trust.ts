@@ -17,8 +17,8 @@ export const TRUST_FEATURES: TrustFeatureCopy[] = [
     description: 'Resposta rápida quando você precisar, 24h.',
   },
   {
-    title: 'Bom preço',
-    description: 'Transparência na cotação, sem surpresas.',
+    title: 'Preço justo',
+    description: 'Orçamento transparente, sem surpresas na hora de pagar.',
   },
   {
     title: 'Dinheiro e Pix',
@@ -46,9 +46,14 @@ export const SERVICES_COPY: ServiceCopy[] = [
       'Transporte seguro para motos com equipamento adequado. Evitamos riscos ao seu veículo.',
   },
   {
+    title: 'Carga de Bateria',
+    description:
+      'Bateria fraca ou descarregada? Fazemos a carga no local para você voltar a rodar.',
+  },
+  {
     title: 'Outros',
     description:
-      'Vans, veículos comerciais leves e situações especiais de resgate. Consulte-nos para um orçamento personalizado.',
+      'Veículos comerciais leves e situações especiais de resgate. Consulte-nos para um orçamento personalizado.',
     ctaLabel: 'Fale conosco',
     ctaHref: URL_WHATSAPP_1,
   },
@@ -57,7 +62,7 @@ export const SERVICES_COPY: ServiceCopy[] = [
 /** Por que nos escolher – segurança e confiança */
 export const WHY_CHOOSE_BULLETS: string[] = [
   'Cotação transparente e orçamento sem compromisso',
-  'Pagamento somente após a conclusão do serviço',
+  'Pagamento em dinheiro ou Pix, como preferir',
   'Equipamentos revisados e condutores preparados',
   'Atendimento em Curitiba e região',
 ];

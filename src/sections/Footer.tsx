@@ -16,7 +16,14 @@ export function Footer() {
       <div className="max-w-content mx-auto px-4 sm:px-6 pt-16 pb-14">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
           <div>
-            <p className="font-bold text-xl tracking-tight mb-1">Guincho Taquari</p>
+            <img
+            src="/assets/logo.jpg"
+            alt="Guincho Taquari"
+            className="h-10 w-auto max-w-[200px] object-contain block mb-2"
+            width={200}
+            height={52}
+            loading="eager"
+          />
             <p className="text-white/60 text-sm">Curitiba e Região</p>
           </div>
           <div>

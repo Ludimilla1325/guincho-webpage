@@ -6,7 +6,16 @@ export function TopBar() {
     <header className="sticky top-0 z-40 bg-brand-grey text-white shadow-md">
       <div className="max-w-content mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-4">
-          <span className="font-bold text-base tracking-tight">Guincho Taquari</span>
+          <a href="#" className="flex items-center shrink-0" aria-label="Guincho Taquari - início">
+            <img
+              src="/assets/logo.jpg"
+              alt="Guincho Taquari"
+              className="h-9 w-auto max-w-[180px] object-contain block"
+              width={180}
+              height={48}
+              loading="eager"
+            />
+          </a>
           <span className="hidden sm:inline text-white/50 text-sm">|</span>
           <span className="hidden sm:inline text-white/80 text-sm">{CONTACT_NAME}</span>
         </div>

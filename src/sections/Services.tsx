@@ -13,7 +13,7 @@ export function Services() {
         <SectionHeader
           id="services-heading"
           title="Como podemos te ajudar?"
-          subtitle="Serviço de reboque para qualquer tipo de veículo em Curitiba e região."
+          subtitle="Reboque rápido e seguro para carros, motos e mais. Curitiba e região."
         />
         <ul className="grid md:grid-cols-3 gap-6 md:gap-8">
           {SERVICES_COPY.map((item, i) => {

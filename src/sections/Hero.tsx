@@ -6,13 +6,13 @@ export function Hero() {
     <section className="relative bg-brand-grey text-white min-h-[min(88vh,640px)] flex flex-col md:flex-row overflow-hidden">
       <div className="flex-1 flex flex-col justify-center px-4 sm:px-6 md:px-10 lg:px-16 py-14 md:py-20 max-w-xl animate-fade-in">
         <div className="inline-flex items-center gap-2 self-start px-3 py-1.5 rounded-full bg-brand-orange/20 text-brand-orange text-xs font-semibold uppercase tracking-wider mb-5">
-          Atendimento rápido
+          Atendimento 24h
         </div>
         <h1 className="text-display font-extrabold tracking-tight mb-4">
           Guincho em Curitiba e Região
         </h1>
         <p className="text-lead text-white/90 mb-8 max-w-md">
-          Rápido, seguro e no preço certo. Ligamos quando você precisar.
+          Parou na rua? A gente resolve. Reboque 24h com preço justo e sem surpresa.
         </p>
         <div className="flex flex-col sm:flex-row gap-3">
           <a
